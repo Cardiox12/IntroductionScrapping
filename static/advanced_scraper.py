@@ -21,7 +21,7 @@ def make_article(name, price, review_number, url):
     return (name, price, review_number, url)
 
 def scrap_articles(url):
-    print(f"Scraping : {url} !")
+    print(f"Scraping : {url}")
     response = requests.get(url)
 
     if response.status_code == 200:
@@ -45,7 +45,7 @@ for resource in resources:
 for thread in pool:
     thread.join()
 
-with open("output/articles_thread.csv", "w") as f:
+with open("output/articles_advanced.csv", "w") as f:
     csv_writer = csv.writer(f)
 
     for article in articles:
