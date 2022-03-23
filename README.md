@@ -1,6 +1,6 @@
 # Introduction au scraping
 
-Ce projet est une introduction au concept de scraping, vous y trouverez deux types de scrapers. \
+Ce projet est une introduction au concept de scraping et fait suite au live coding sur le serveur [Docstring](https://discord.gg/27mTMyWH), vous y trouverez deux types de scrapers. \
 Un scraper pour les sites statiques et un scraper pour les sites dynamiques.
 
 La première étape du projet étant d'introduire les concepts fondamenteux du scraping, qui se déroule en règle général en 6 étapes :
@@ -14,6 +14,4 @@ La première étape du projet étant d'introduire les concepts fondamenteux du s
 
 
 #### Statique
-Pour scraper des sites statiques, en général les modules `requests` et `BeautifulSoup` sont suffisants. \
-
-# Scraping introduction
+Pour scraper des sites statiques, en général les modules `requests` et `BeautifulSoup` sont suffisants.
